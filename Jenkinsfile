@@ -28,7 +28,7 @@ pipeline {
     }
     stage('error') {
       steps {
-        input(message: 'Is it ok for you guy?', ok: 'yes', submitter: 'ss', submitterParameter: 'sss1')
+        input(message: 'Is it ok for you guy?', ok: 'yes')
       }
     }
   }
