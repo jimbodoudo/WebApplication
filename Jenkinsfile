@@ -26,9 +26,9 @@ pipeline {
         echo 'it\'s finished!'
       }
     }
-    stage('') {
+    stage('error') {
       steps {
-        input(message: 'Is it ok for you guy?', id: 'no', ok: 'yes')
+        input(message: 'Is it ok for you guy?', ok: 'yes', submitter: 'ss', submitterParameter: 'sss1')
       }
     }
   }
