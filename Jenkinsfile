@@ -26,6 +26,11 @@ pipeline {
         echo 'it\'s finished!'
       }
     }
+    stage('') {
+      steps {
+        input(message: 'Is it ok for you guy?', id: 'no', ok: 'yes')
+      }
+    }
   }
   environment {
     test = 'asdfdsf'
