@@ -1,0 +1,90 @@
+[33mcommit 69f6f9d092cd880083daa9daab6bdb7006cd4f6a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 19:59:29 2018 -0400
+
+    test 2
+
+[33mcommit adff4d6779dd9d29aef72a99ac42277847a4dfd4[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 19:58:52 2018 -0400
+
+    test
+
+[33mcommit 837c0da5c5ce205fc18376f48eb34fa5747b2868[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 19:58:09 2018 -0400
+
+    t rm status
+
+[33mcommit fc654aec72bb4d099d33c1ff6d159915417feb2d[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 19:54:45 2018 -0400
+
+    add test.txt
+
+[33mcommit b238b08686980eecad6c4731789235c164bf2718[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 19:34:10 2018 -0400
+
+    deuxieme commit
+    test test test deuxieme line
+
+[33mcommit ec65286eecc569a724ac19dc07fdecb0aa68a0da[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 19:32:47 2018 -0400
+
+    test add and commit
+
+[33mcommit 0e68863ee1f565c9113e72811211b279329627e3[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 16:53:50 2018 -0400
+
+    asdf
+
+[33mcommit d453e1e29d75dd95eb0fa69daa8820e57fb6d94b[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 16:52:49 2018 -0400
+
+    removing bin and obj
+
+[33mcommit 3f0d47a20ddea894b5accb6c7d34d770cbec8c8d[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 16:45:01 2018 -0400
+
+    mod
+
+[33mcommit 2c5e3d9ba97da7cabfeb29eaec7e90670ff57312[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 16:14:32 2018 -0400
+
+    asdf
+
+[33mcommit 50a45e8cbf547afe6be5565c66c1eada6c8e0672[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 16:13:42 2018 -0400
+
+    asdf2
+
+[33mcommit e9160e40c33ebb71f25d9db1ed1ad261fb0958fb[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 16:12:00 2018 -0400
+
+    test
+
+[33mcommit b030a8aadfff8ba7900a0a192093949adac09912[m[33m ([m[1;33mtag: 3.3[m[33m, [m[1;33mtag: 3.2[m[33m)[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 15:17:48 2018 -0400
+
+    asdf2
+
+[33mcommit 778d54a40548bf96291acd116cd9e9d2cc68cd9a[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 15:10:51 2018 -0400
+
+    comment added
+
+[33mcommit 60f9ec385c0bfff1abe7bf9781dae29a87b4c4b3[m[33m ([m[1;33mtag: 3.1[m[33m, [m[1;33mtag: 3.0[m[33m, [m[1;33mtag: 2.9[m[33m)[m
+Author: Jimmy Bourque <jbourquearchitect@gmail.com>
+Date:   Mon Apr 30 14:33:08 2018 -0400
+
+    initial commit

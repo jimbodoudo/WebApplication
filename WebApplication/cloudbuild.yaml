@@ -1,0 +1,27 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["build", "-t", "us.gcr.io/my-project-1499882073260/grocery:$TAG_NAME", "-f", "WebApplication1/Dockerfile", "."]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["push", "us.gcr.io/my-project-1499882073260/grocery:$TAG_NAME"]
+- name: 'gcr.io/cloud-builders/kubectl'
+  args:
+  - set
+  - image
+  - deployment/grocery
+  - grocery=us.gcr.io/my-project-1499882073260/grocery:$TAG_NAME
+  env:
+  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=jimbocluster'
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["build", "-t", "us.gcr.io/my-project-1499882073260/data:$TAG_NAME", "-f", "WebApplication2/Dockerfile", "."]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["push", "us.gcr.io/my-project-1499882073260/data:$TAG_NAME"]
+- name: 'gcr.io/cloud-builders/kubectl'
+  args:
+  - set
+  - image
+  - deployment/grocery
+  - data=us.gcr.io/my-project-1499882073260/data:$TAG_NAME
+  env:
+  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=jimbocluster'

@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  webapplication1:
+    hostname: app1
+    image: grocery
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+    ports:
+      - "6061:80"
+    expose:
+      - "80"
+    links:
+      - webapplication2
+    environment:
+      - Urls__SubService=http://webapplication2:8081/api/values
+
+  webapplication2:
+    hostname: app2
+    image: data
+    build:
+      context: .
+      dockerfile: WebApplication2/Dockerfile
+    environment:
+      - Data__Value=Rouge
+    ports:
+      - "6060:8081"
+    expose:
+      - "8081"
