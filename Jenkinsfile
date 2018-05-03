@@ -4,7 +4,6 @@ pipeline {
     stage('Stage1') {
       steps {
         sleep 10
-        mail(subject: 'allo', body: 'hello', from: 'no@familiprix.com', to: 'jbourque@familiprix.com')
         sleep 5
       }
     }
