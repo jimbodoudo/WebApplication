@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'jenkins'
-    }
-
-  }
+  agent none
   stages {
     stage('Stage1') {
       steps {
@@ -20,7 +15,7 @@ pipeline {
             sleep 2
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             sleep 3
           }
