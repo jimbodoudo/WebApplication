@@ -30,7 +30,7 @@ namespace WebApplication1.Controllers
         {
             List<string> items = new List<string>(_grocery.Stocks);
             items.Add(_branch.Name);
-            items.Add("Allo!!! le souper arrive");
+            items.Add("test one two");
 
             // Call app2 from app1
             HttpClient client = new HttpClient();
