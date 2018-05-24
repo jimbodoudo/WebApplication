@@ -13,6 +13,9 @@ namespace WebApplication2.Controllers
     {
         private DataSettings _data;
 
+        /// <summary>
+        /// Ceci est un commentaire juste pour le fun
+        /// </summary>
         public ValuesController(IOptions<DataSettings> data)
         {
             _data = data.Value;
