@@ -7,7 +7,7 @@ namespace WebApplication1
 {
     public class Grocery
     {
-        //         f  f 
+        // some comments
         public string[] Stocks { get; set;  }
     }
 }
