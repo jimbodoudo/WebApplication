@@ -8,7 +8,7 @@ namespace tests
         [TestMethod]
         public void TestMethod1()
         {  
-            Assert.IsTrue(true);
+            Assert.IsTrue(false);
         }
     }
 }
