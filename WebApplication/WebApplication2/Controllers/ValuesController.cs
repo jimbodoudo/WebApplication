@@ -39,7 +39,7 @@ namespace WebApplication2.Controllers
              //   Console.WriteLine("Je suis tannée, peux-tu intercepter celle foutu erreur!");
                 Trace.WriteLine("ValuesController.Get2 " + string.Join(", ", new string[] { "static value1", "static values2" }), "DataCateg");
                 Trace.TraceInformation("This is an information");
-                Trace.TraceWarning("This is a warning");
+                Trace.TraceWarning("This is a warning 2");
                 Debug.WriteLine("This is a debug message");
                 return new string[] { "static value1", "static values2" };
             }
